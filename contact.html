@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | North Star Bakery</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a href="#main-content">Skip to main content</a>
+<header>
+<img src="media/bakery-logo_c.png" alt="North Star Bakery logo featuring bread and wheat" width="180">
+<h1>Contact and Pre-Orders</h1>
+<nav aria-label="Main navigation"><ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="contact.html" aria-current="page">Contact and Pre-Orders</a></li>
+</ul></nav>
+</header>
+<main id="main-content" tabindex="-1">
+<section><h2>Visit North Star Bakery</h2>
+<p>125 Maple Street, Maplewood (sample address).</p>
+<p>Monday-Friday: 7 a.m.-5 p.m.; Saturday: 8 a.m.-3 p.m.; Sunday: Closed (sample hours).</p>
+<p>Have a question about our products or want to request a pre-order? Fill out the form below and tell us what you need.</p></section>
+<section><h2>Inquiry and Pre-Order Form</h2>
+<p>Please complete the required fields so the bakery has the information needed for your request. This is a practice form and does not actually send an order.</p>
+<form action="#" method="get">
+<p><label for="full-name">Full name (required)</label>
+<input type="text" id="full-name" name="full-name" autocomplete="name" minlength="2" maxlength="80" required></p>
+<p><label for="email">Email address (required)</label>
+<input type="email" id="email" name="email" autocomplete="email" required></p>
+<p><label for="pickup-date">Preferred pickup date (required)</label>
+<input type="date" id="pickup-date" name="pickup-date" required></p>
+<fieldset><legend>Request type (required)</legend>
+<input type="radio" id="preorder" name="request-type" value="pre-order" required>
+<label for="preorder">Pre-order inquiry</label>
+<input type="radio" id="general" name="request-type" value="general-question">
+<label for="general">General question</label>
+</fieldset>
+<p><label for="details">Item details (required)</label>
+<textarea id="details" name="details" rows="5" cols="40" minlength="10" maxlength="1000" required></textarea></p>
+<p><label for="allergy-notes">Allergy notes (if applicable)</label>
+<textarea id="allergy-notes" name="allergy-notes" rows="3" cols="40" maxlength="500"></textarea></p>
+<p>If you have food allergies, please tell us in the notes. Bakery items may contain wheat, milk, eggs, or nuts.</p>
+<button type="submit">Send Inquiry</button>
+</form>
+<p>For this assignment, the form shows how customers would send a request, but it does not connect to an ordering system.</p>
+</section>
+</main>
+<footer><p>North Star Bakery | Handmade for our neighbors.</p>
+<p><a href="contact.html">Contact us about pre-orders</a></p></footer>
+</body>
+</html>
